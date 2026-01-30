@@ -124,25 +124,6 @@ export default function Home() {
             />
           </motion.a>
 
-          {/* Logo 5 - Light Path Law (NEW) */}
-          <motion.a
-            href="https://www.lightpathlaw.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center group relative p-4 cursor-pointer"
-            variants={itemVariants}
-            whileHover={logoHover}
-          >
-            <div className="absolute inset-0 bg-white/5 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            <Image
-              src="/logos/logo-5.jpg"
-              alt="Light Path Law"
-              width={300}
-              height={150}
-              className="object-contain w-auto h-32 md:h-40 relative z-10 mix-blend-screen"
-            />
-          </motion.a>
-
           {/* Logo 3 - GLA */}
           <motion.a
             href="https://www.globallegaladvisorsusa.com/"
@@ -159,6 +140,25 @@ export default function Home() {
               width={300}
               height={150}
               className="object-contain w-auto h-32 md:h-40 relative z-10"
+            />
+          </motion.a>
+
+          {/* Logo 5 - Light Path Law (NEW) */}
+          <motion.a
+            href="https://www.lightpathlaw.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center group relative p-4 cursor-pointer"
+            variants={itemVariants}
+            whileHover={logoHover}
+          >
+            <div className="absolute inset-0 bg-white/5 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <Image
+              src="/logos/logo-5.png"
+              alt="Light Path Law"
+              width={300}
+              height={150}
+              className="object-contain w-auto h-32 md:h-40 relative z-10 mix-blend-screen"
             />
           </motion.a>
 
