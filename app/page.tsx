@@ -102,41 +102,60 @@ export default function Home() {
 
         {/* Sub Logos Grid */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-4xl"
+          className="grid grid-cols-1 md:grid-cols-4 gap-8 w-full max-w-6xl items-center"
           variants={containerVariants}
         >
-          {/* Logo 2 */}
+          {/* Logo 2 - JAL LAW */}
           <motion.a
             href="https://thelawofficeofjal.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center group relative p-6 cursor-pointer"
+            className="flex items-center justify-center group relative p-4 cursor-pointer"
             variants={itemVariants}
             whileHover={logoHover}
           >
             <div className="absolute inset-0 bg-white/5 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <Image
               src="/logos/logo-2.png"
-              alt="Sub Logo 1"
+              alt="JAL LAW"
               width={350}
               height={175}
               className="object-contain w-auto h-40 md:h-56 relative z-10"
             />
           </motion.a>
 
-          {/* Logo 3 */}
+          {/* Logo 5 - Light Path Law (NEW) */}
+          <motion.a
+            href="https://www.lightpathlaw.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center group relative p-4 cursor-pointer"
+            variants={itemVariants}
+            whileHover={logoHover}
+          >
+            <div className="absolute inset-0 bg-white/5 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <Image
+              src="/logos/logo-5.jpg"
+              alt="Light Path Law"
+              width={300}
+              height={150}
+              className="object-contain w-auto h-32 md:h-40 relative z-10 mix-blend-screen"
+            />
+          </motion.a>
+
+          {/* Logo 3 - GLA */}
           <motion.a
             href="https://www.globallegaladvisorsusa.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center group relative p-6 cursor-pointer"
+            className="flex items-center justify-center group relative p-4 cursor-pointer"
             variants={itemVariants}
             whileHover={logoHover}
           >
             <div className="absolute inset-0 bg-white/5 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <Image
               src="/logos/logo-3.png"
-              alt="Sub Logo 2"
+              alt="Global Legal Advisors"
               width={300}
               height={150}
               className="object-contain w-auto h-32 md:h-40 relative z-10"
