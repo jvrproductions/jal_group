@@ -116,9 +116,9 @@ export default function Home() {
             <Image
               src="/logos/logo-2.png"
               alt="Sub Logo 1"
-              width={300}
-              height={150}
-              className="object-contain w-auto h-32 md:h-40 relative z-10"
+              width={350}
+              height={175}
+              className="object-contain w-auto h-40 md:h-56 relative z-10"
             />
           </motion.a>
 
