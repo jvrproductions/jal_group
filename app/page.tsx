@@ -107,7 +107,9 @@ export default function Home() {
         >
           {/* Logo 2 */}
           <motion.a
-            href="#"
+            href="https://thelawofficeofjal.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center group relative p-6 cursor-pointer"
             variants={itemVariants}
             whileHover={logoHover}
@@ -124,7 +126,9 @@ export default function Home() {
 
           {/* Logo 3 */}
           <motion.a
-            href="#"
+            href="https://www.globallegaladvisorsusa.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center group relative p-6 cursor-pointer"
             variants={itemVariants}
             whileHover={logoHover}
@@ -141,7 +145,9 @@ export default function Home() {
 
           {/* Logo 4 */}
           <motion.a
-            href="#"
+            href="https://www.zalaw.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center group relative p-6 cursor-pointer"
             variants={itemVariants}
             whileHover={logoHover}
